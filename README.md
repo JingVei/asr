@@ -21,14 +21,18 @@ E-mail   : Jwjier@gmail.com
 
 #### 通过matlab小波工具箱来进行可视化滤波
 
-1、在`matlab的命令行`中`waveletAnalyzer`打开小波工具箱选择小波工具箱的`Wavelet 1-D`
-2、点击 File > Import from Workspace > Import Signal.
-3、打开workspace中的信号数据
-	3.1、Wavelet选择小波类型
-	3.2、Level选择小波层数
-	3.3、点击analyze
-	3.4、点击De- noise
-	3.5、Select thresholding method选择阈值的方法
-	3.6、soft的hard选项分别是软阈值与硬阈值
- 因为不同语音段的噪声方差会随时间产生变化因此我们可以选择对不同的语音段设置不同的阈值，点击Interval Dependent Threshold Settings按钮可以对语音进行分段设置阈值。可以点击Generate Default Intervals的按钮自动设置也可以自己设置需要的分区。点击Propagate按钮将本级分层同步在所有的小波层上。点击close点击Y保存设置。 
-点击De-noise进行去噪，通过选择File> Generate Matlab Code（Denoising Process）生产代码
+1、在`matlab的命令行`中`waveletAnalyzer`打开小波工具箱选择小波工具箱的`Wavelet 1-D  `
+2、点击 File > Import from Workspace > Import Signal.  
+3、打开workspace中的信号数据  
+	3.1、Wavelet选择小波类型  
+	3.2、Level选择小波层数     
+	3.3、点击analyze  
+	3.4、点击De- noise  
+	3.5、Select thresholding method选择阈值的方法  
+	3.6、soft的hard选项分别是软阈值与硬阈值  
+ 因为不同语音段的噪声方差会随时间产生变化因此我们可以选择对不同的语音段设置不同的阈值  
+Interval Dependent Threshold Settings按钮可以对语音进行分段设置阈值  
+Generate Default Intervals的按钮自动设置也可以自己设置需要的分区  
+Propagate按钮将本级分层同步在所有的小波层上。点击close点击Y保存设置。   
+De-noise进行去噪   
+选择File> Generate Matlab Code（Denoising Process）生产代码
