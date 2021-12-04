@@ -28,9 +28,10 @@ E-mail   : Jwjier@gmail.com
 	3.4、点击De- noise  
 	3.5、Select thresholding method选择阈值的方法  
 	3.6、soft的hard选项分别是软阈值与硬阈值  
- 因为不同语音段的噪声方差会随时间产生变化因此我们可以选择对不同的语音段设置不同的阈值  
+因为不同语音段的噪声方差会随时间产生变化因此我们可以选择对不同的语音段设置不同的阈值  
 Interval Dependent Threshold Settings按钮可以对语音进行分段设置阈值  
 Generate Default Intervals的按钮自动设置也可以自己设置需要的分区  
-Propagate按钮将本级分层同步在所有的小波层上。点击close点击Y保存设置。   
+Propagate按钮将本级分层同步在所有的小波层上    
+点击close点击Y保存设置     
 De-noise进行去噪   
 选择File> Generate Matlab Code（Denoising Process）生产代码
